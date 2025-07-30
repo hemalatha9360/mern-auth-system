@@ -43,22 +43,6 @@ const Welcomepage = () => {
           Welcome User {name}
         </h1>
       </div>
-      <div>
-        <form className="bg-slate-400 h-[300px] w-[200px] ">
-          <h1 className="text-2xl font-bold text-center text-gray-800 mb-6 pt-24 ">
-            User Profile
-          </h1>
-
-          <div className="text-gray-700 space-y-4">
-            <p>
-              <span className="font-semibold">Name:</span> {user.name}
-            </p>
-            <p>
-              <span className="font-semibold">Email:</span> {user.email}
-            </p>
-          </div>
-        </form>
-      </div>
     </div>
   );
 };
